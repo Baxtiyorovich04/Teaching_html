@@ -86,6 +86,7 @@ h1 span {
     width: 1278px;
     margin: 0 auto;
     flex-wrap: wrap;
+    margin-bottom: 90px;
 }
 
 .cards_sec_title {
@@ -153,4 +154,48 @@ h1 span {
 .card_link:hover {
     text-decoration: underline;
 
+}
+
+.how_itworks_sec {
+    background-color: #4a9ad31a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.how_itworks_sec h1 {
+    color: #4A99D3;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.how_items_sec {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+}
+
+.how_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.how_item h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #0f001a;
+}
+
+.how_item p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    color: #0f001a;
 }
