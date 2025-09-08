@@ -199,3 +199,54 @@ h1 span {
     text-align: center;
     color: #0f001a;
 }
+
+.our_clients h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #0f001a;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.clients_sec {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.clients_right {
+    border-radius: 0 6px 6px 0;
+    width: 557px;
+    height: 400px;
+    background: rgba(74, 153, 211, 0.1);
+    position: relative;
+}
+
+.clients_right img {
+    position: absolute;
+    bottom: 0;
+    left: 58px;
+}
+
+.clients_left p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #0f001a;
+    width: 400px;
+    opacity: 0.5;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.clients_left b {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #0f001a;
+}
