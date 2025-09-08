@@ -34,6 +34,7 @@ body {
     gap: 30px;
 }
 
+
 .header_links a {
     text-decoration: none;
     font-size: 18px;
@@ -76,4 +77,80 @@ h1 span {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 1278px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.cards_sec_title {
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 128%;
+    letter-spacing: 0.05em;
+    color: #260041;
+    margin-bottom: 80px;
+
+}
+
+.card {
+    border-radius: 10px;
+    width: 380px;
+    height: 525px;
+    box-shadow: 5px 20px 50px 0 rgba(74, 153, 211, 0.2);
+    background: #fff;
+    padding: 48px;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    transition: 0.5s all ease-in-out;
+    box-shadow: 14px 20px 10px 0 rgba(74, 153, 211, 0.2);
+}
+
+.card_title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #0f001a;
+    margin-bottom: 16px;
+    margin-top: 56px;
+}
+
+.text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #0f001a;
+    margin-bottom: 62px;
+}
+
+.card_link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card_link a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 214%;
+    letter-spacing: 0.05em;
+    color: #4a99d3;
+    text-decoration: none;
+}
+
+.card_link:hover {
+    text-decoration: underline;
+
 }
